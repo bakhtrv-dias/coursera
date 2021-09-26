@@ -149,11 +149,12 @@ h3,h2,h1 {
 
 .slider__item {
     /* text-align: center; */
-    margin: 0 0.8rem;
+    /* margin: 0 0.8rem; */
     height: 20rem;
     position: relative;
     border-radius: 1%;
     min-width: 0;
+    overflow: hidden;
 }
 /*
 .slider__item {
@@ -213,14 +214,15 @@ h3,h2,h1 {
 .slider {
     position: relative;
     margin: 1rem 1rem;
+    padding: 1.5rem;
 }
 .slider__content {
     margin: 0 auto;
     width: 16.9rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     border: 1px solid rgb(199, 198, 198);
     min-height: 100%;
     position: relative;

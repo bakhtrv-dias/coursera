@@ -14,7 +14,7 @@ $(document).ready(function(){
         dots:true,
         adaptiveHeight:false,
         slidesToShow:4,
-        slidesToScroll:2,
+        slidesToScroll:1,
         speed:1000,
         easing:'ease',
         infinite:true,
@@ -44,12 +44,12 @@ $(document).ready(function(){
                     slidesToShow:3,
                 }
             },{
-                breakpoint: 864,
+                breakpoint: 912,
                 settings:{
                     slidesToShow:2,
                 }
             },{
-                breakpoint: 594,
+                breakpoint: 642,
                 settings:{
                     slidesToShow:1,
                 }
